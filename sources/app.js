@@ -1,10 +1,6 @@
 function load() {
-    Module.load("UI").then(() => {
-        particles();
-    });
-    window.addEventListener("popstate", () => {
-        particles();
-    });
+    Module.load("UI").then(particles);
+    window.addEventListener("popstate", particles);
 }
 
 function particles() {
