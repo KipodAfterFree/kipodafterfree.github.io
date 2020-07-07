@@ -1,0 +1,15 @@
+:root {
+    --theme: #000000;
+    --passive: #00FF00;
+    --active: #00AA00;
+    --coaster: #888899;
+}
+
+* {
+    font-family: "Ubuntu", sans-serif !important;
+}
+
+body {
+    /* Size */
+    max-width: 540px;
+}
