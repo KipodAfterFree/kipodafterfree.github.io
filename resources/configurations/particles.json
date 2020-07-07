@@ -1,14 +1,14 @@
 {
   "particles": {
     "number": {
-      "value": 80,
+      "value": 104,
       "density": {
-        "enable": true,
-        "value_area": 800
+        "enable": false,
+        "value_area": 5400
       }
     },
     "color": {
-      "value": "#00ff00"
+      "value": "#3cff00"
     },
     "shape": {
       "type": "circle",
@@ -26,7 +26,7 @@
       }
     },
     "opacity": {
-      "value": 1,
+      "value": 0.5,
       "random": false,
       "anim": {
         "enable": false,
@@ -36,7 +36,7 @@
       }
     },
     "size": {
-      "value": 0,
+      "value": 4,
       "random": true,
       "anim": {
         "enable": false,
@@ -47,10 +47,10 @@
     },
     "line_linked": {
       "enable": true,
-      "distance": 150,
-      "color": "#00ff00",
-      "opacity": 0.4,
-      "width": 2
+      "distance": 120,
+      "color": "#3c3c3c",
+      "opacity": 0.5,
+      "width": 5
     },
     "move": {
       "enable": true,
@@ -68,10 +68,10 @@
     }
   },
   "interactivity": {
-    "detect_on": "window",
+    "detect_on": "canvas",
     "events": {
       "onhover": {
-        "enable": true,
+        "enable": false,
         "mode": "repulse"
       },
       "onclick": {
