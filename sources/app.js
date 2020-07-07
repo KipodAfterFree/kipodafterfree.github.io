@@ -1,3 +1,5 @@
 function load() {
-    Module.load("UI");
+    Module.load("UI").then(() => {
+        particlesJS.load("particles", "resources/configurations/particles.json");
+    });
 }
