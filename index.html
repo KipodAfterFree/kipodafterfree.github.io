@@ -37,7 +37,7 @@
 </head>
 <body onload="load()" column>
 <!-- Content -->
-<p large left>Hi, we are KipodAfterFree.</p>
+<p large left onclick="UI.view('home')">Hi, we are KipodAfterFree.</p>
 <div id="contents" column>
     <div id="home" column>
         <p small left>You've found us. Here are your flags:</p>
@@ -47,27 +47,27 @@
     <div id="members" hidden column>
         <p small left>Consisting of 6 eager enthusiasts, each with his own speciality.</p>
         <div row>
-            <button small left onclick="window.open('https://github.com/Plutoberth')">Nir</button>
-            <button small right onclick="window.open('https://whoru.tech')">Amit</button>
+            <a button small left href="https://github.com/Plutoberth">Nir</a>
+            <a button small right="" href="https://whoru.tech">Amit</a>
         </div>
         <div row>
-            <button small left onclick="window.open('https://nadav.app')">Nadav</button>
-            <button small right onclick="window.open('https://twitter.com/ManorHadar')">Hadar</button>
+            <a button small left href="https://nadav.app">Nadav</a>
+            <a button small right href="https://twitter.com/ManorHadar">Hadar</a>
         </div>
         <div row>
-            <button small left onclick="window.open('https://twitter.com/_lhiny')">Yuval</button>
-            <button small right onclick="window.open('https://github.com/omerk2511')">Omer</button>
+            <a button small left href="https://twitter.com/_lhiny">Yuval</a>
+            <a button small right href="https://github.com/omerk2511">Omer</a>
         </div>
     </div>
     <div id="contact" hidden column>
         <p medium left>Got you hooked?</p>
         <div row>
-            <button small left onclick="window.open('https://github.com/KipodAfterFree')">GitHub</button>
-            <button small right onclick="window.open('https://twitter.com/KipodAfterFree')">Twitter</button>
+            <a button small left href="https://github.com/KipodAfterFree">GitHub</a>
+            <a button small right href="https://twitter.com/KipodAfterFree">Twitter</a>
         </div>
         <div row>
-            <button small left onclick="window.open('https://ctftime.org/team/89050')">CTFTime</button>
-            <button small right onclick="window.open('mailto:hey@kaf.sh')">Email</button>
+            <a button small left href="https://ctftime.org/team/89050">CTFTime</a>
+            <a button small right href="mailto:hey@kaf.sh">Email</a>
         </div>
     </div>
 </div>
