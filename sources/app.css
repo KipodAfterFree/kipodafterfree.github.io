@@ -21,5 +21,16 @@ body {
     top: 0;
     bottom: 0;
     z-index: -1;
-    filter: blur(1px);
+}
+
+@media only screen and (max-width: 540px) {
+    #particles {
+        filter: blur(3px);
+    }
+}
+
+@media only screen and (min-width: 540px) {
+    #particles {
+        filter: blur(1px);
+    }
 }
