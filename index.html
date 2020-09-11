@@ -41,8 +41,11 @@
 <div id="contents" column>
     <div id="home" column>
         <p small left>You've found us. Here are your flags:</p>
-        <button small left onclick="UI.view('members')">Members</button>
-        <button small left onclick="UI.view('contact')">Contact us</button>
+        <a button small left href="https://ctf.kaf.sh">Upcoming event</a>
+        <div row>
+            <button small left onclick="UI.view('members')">Members</button>
+            <button small left onclick="UI.view('contact')">Contact</button>
+        </div>
     </div>
     <div id="members" hidden column>
         <p small left>Consisting of 6 eager enthusiasts, each with his own speciality.</p>
@@ -63,12 +66,13 @@
     <div id="contact" hidden column>
         <p medium left>Got you hooked?</p>
         <div row>
-            <a button small left href="https://github.com/KipodAfterFree">GitHub</a>
-            <a button small right href="https://twitter.com/KipodAfterFree">Twitter</a>
-        </div>
-        <div row>
             <a button small left href="https://ctftime.org/team/89050">CTFTime</a>
             <a button small right href="mailto:hey@kaf.sh">Email</a>
+        </div>
+        <div row>
+            <a button small left href="https://github.com/KipodAfterFree">GitHub</a>
+            <a button small center href="https://discord.gg/YnJhXmP">Discord</a>
+            <a button small right href="https://twitter.com/KipodAfterFree">Twitter</a>
         </div>
     </div>
 </div>
